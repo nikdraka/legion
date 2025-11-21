@@ -7,8 +7,8 @@
 \usage{
 auto.vets(data, model = "PPP", lags = c(frequency(data)),
   initialisation = c("backcasting", "optimal"), loss = c("likelihood",
-  "diagonal", "trace"), ic = c("AICc", "AIC", "BIC", "BICc"), h = 10,
-  holdout = FALSE, occurrence = c("none", "fixed", "logistic"),
+  "diagonal", "trace", "log-trace"), ic = c("AICc", "AIC", "BIC", "BICc"),
+  h = 10, holdout = FALSE, occurrence = c("none", "fixed", "logistic"),
   bounds = c("admissible", "usual", "none"), silent = TRUE,
   parallel = FALSE, ...)
 

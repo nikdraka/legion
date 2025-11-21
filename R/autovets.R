@@ -9,7 +9,7 @@ utils::globalVariables(c("parameters","initials","components"))
 #' @export
 auto.vets <- function(data, model="PPP", lags=c(frequency(data)),
                       initialisation=c("backcasting","optimal"),
-                      loss=c("likelihood","diagonal","trace"),
+                      loss=c("likelihood","diagonal","trace","log-trace"),
                       ic=c("AICc","AIC","BIC","BICc"), h=10, holdout=FALSE,
                       occurrence=c("none","fixed","logistic"),
                       bounds=c("admissible","usual","none"),
