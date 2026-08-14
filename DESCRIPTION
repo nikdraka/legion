@@ -4,11 +4,12 @@ Title: Forecasting Using Multivariate Models
 Version: 0.2.2.41003
 Date: 2025-10-24
 Authors@R: c(person("Ivan", "Svetunkov", email = "ivan@svetunkov.com", role = c("aut", "cre"),
-                  comment="Senior Lecturer, Centre for Marketing Analytics and Forecasting, Lancaster University, UK"),
+                  comment = c("Director of the OpenForecast consultancy company, UK",
+                              ORCID = "0000-0001-7826-0281")),
              person("Kandrika Fadhlan", "Pritularga", email = "k.pritularga@lancaster.ac.uk", role = c("aut"),
                   comment="Lecturer, Centre for Marketing Analytics and Forecasting, Lancaster University, UK"))
-URL: https://github.com/config-i1/legion
-BugReports: https://github.com/config-i1/legion/issues
+URL: https://openforecast.org/packages/
+BugReports: https://github.com/openforecast-org/legion/issues
 Language: en-GB
 Description: Functions implementing multivariate state space models for purposes of time series analysis and forecasting.
              The focus of the package is on multivariate models, such as Vector Exponential Smoothing,
