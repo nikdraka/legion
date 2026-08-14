@@ -1,11 +1,11 @@
 # legion
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/legion)](https://cran.r-project.org/package=legion)
 [![Downloads](http://cranlogs.r-pkg.org/badges/legion)](https://cran.r-project.org/package=legion)
-[![R-CMD-check](https://github.com/config-i1/legion/actions/workflows/test.yml/badge.svg)](https://github.com/config-i1/legion/actions/workflows/test.yml)
+[![R-CMD-check](https://github.com/openforecast-org/legion/actions/workflows/test.yml/badge.svg)](https://github.com/openforecast-org/legion/actions/workflows/test.yml)
 
 The package _legion_ implements several multivariate models for purposes of forecasting.
 
-![hex-sticker of the legion package for R](https://github.com/config-i1/legion/blob/master/man/figures/legion-web.png?raw=true)
+![hex-sticker of the legion package for R](https://github.com/openforecast-org/legion/blob/master/man/figures/legion-web.png?raw=true)
 
 Here is the list of the included functions:
 
@@ -45,4 +45,8 @@ A recent, development version, is available via github and can be installed usin
 > if (!require("remotes")){install.packages("remotes")}
 
 and after that run:
-> remotes::install_github("config-i1/legion")
+> remotes::install_github("openforecast-org/legion")
+
+## About
+
+`legion` is developed and maintained by OpenForecast, a demand forecasting and inventory management consultancy. The package implements the methods we use in our [consulting](https://openforecast.org/consulting/) and teach in our [training courses](https://openforecast.org/training/).
